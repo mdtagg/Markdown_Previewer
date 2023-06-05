@@ -1,0 +1,26 @@
+
+.editor-container {
+    height:50px;
+    width:500px;
+    border:1px solid black;
+    margin-top:30px;
+}
+
+.editor-header {
+    background:#4aa3a3;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+#editor {
+    max-width:500px;
+    min-height:200px;
+    background:#c0d8d8;
+    resize:vertical;
+    padding:0;
+    border:1px solid black;
+    outline:none;
+    padding-top:5px;
+    padding-left:5px;
+}
