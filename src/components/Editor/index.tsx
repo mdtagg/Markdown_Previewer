@@ -1,4 +1,4 @@
-import "./Editor.css"
+import "./index.css"
 import { marked } from "marked"
 
 interface EditorProps {

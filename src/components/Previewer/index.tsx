@@ -1,4 +1,4 @@
-import "./Previewer.css"
+import "./index.css"
 import { marked } from "marked"
 
 interface PreviewerProps {

@@ -3,7 +3,7 @@
 }
 
 body {
-    background:#87b5b5;
+    background:#394867;
     display:flex;
     justify-content: center;
     margin:0;
@@ -11,12 +11,18 @@ body {
     border:0;
 }
 
+header {
+    text-align: center;
+    color:#F1F6F9;
+}
+
 code {
-    background:white;
+    background:#212A3E;
+    color:#F1F6F9;
 }
 
 .header {
-    background:#4aa3a3;
+    background:#9BA4B5;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +33,5 @@ code {
 .title {
     font-weight:bold;
     font-size:1.5rem;
+    margin-left:10px;
 }
