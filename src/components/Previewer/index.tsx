@@ -1,4 +1,5 @@
 import "./Previewer.css"
+import { marked } from "marked"
 
 interface PreviewerProps {
     markup:string
@@ -7,18 +8,21 @@ interface PreviewerProps {
 const Previewer = (props:PreviewerProps) => {
 
     const { markup } = props
+    const newMarkup = marked.parse(markup)
 
     return (
         <div className="preview-container">
             <div
-                className="preview-header"
+                className="header"
             >
-                <p>Previewer</p>
-                <button>X</button>
+                <p className="title">Previewer</p>
             </div>
-            <p id="preview">
-              {markup}
-            </p>
+            
+            <div 
+                id="preview"
+                dangerouslySetInnerHTML={{__html:newMarkup}}
+            >
+            </div>
         </div>
         
     )

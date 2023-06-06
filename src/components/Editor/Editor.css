@@ -8,13 +8,14 @@
     margin-right:auto;
 }
 
-.editor-header {
+/* .editor-header {
     background:#4aa3a3;
     display:flex;
+    align-items: center;
     justify-content: space-between;
     width:100%;
     height:20%;
-}
+} */
 
 #editor {
     width:100%;
